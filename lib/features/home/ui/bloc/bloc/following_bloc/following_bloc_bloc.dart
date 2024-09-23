@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:tiktok_clone/features/home/domain/models/following_model.dart';
-import 'package:tiktok_clone/features/home/domain/repositories/folliwing_repository.dart';
+import 'package:tiktok_clon_app/features/home/domain/models/following_model.dart';
+import 'package:tiktok_clon_app/features/home/domain/repositories/following_repository.dart';
 
 part 'following_bloc_event.dart';
 part 'following_bloc_state.dart';
