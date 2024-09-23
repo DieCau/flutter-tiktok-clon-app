@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:tiktok_clone/features/home/data/datasource/network/datasource_ntw.dart';
-import 'package:tiktok_clone/features/home/data/repositories/profile_repository_impl.dart';
-import 'package:tiktok_clone/features/home/domain/models/my_videos_model.dart';
-import 'package:tiktok_clone/features/home/ui/bloc/bloc/perfil_bloc/perfil_bloc.dart';
-import 'package:tiktok_clone/features/home/ui/bloc/cubit/home_page_controller_cubit.dart';
-import 'package:tiktok_clone/shared/constants/colors.dart';
-import 'package:tiktok_clone/shared/constants/icons_svg.dart';
-import 'package:tiktok_clone/shared/widgets/video_player_widget.dart';
+import 'package:tiktok_clon_app/features/home/data/datasource/datasource_ntw.dart';
+import 'package:tiktok_clon_app/features/home/data/repositories/profile_repository.dart';
+import 'package:tiktok_clon_app/features/home/domain/models/my_videos_model.dart';
+import 'package:tiktok_clon_app/features/home/ui/bloc/bloc/perfil_bloc/perfil_bloc.dart';
+import 'package:tiktok_clon_app/features/home/ui/bloc/cubit/home_page_controller_cubit.dart';
+import 'package:tiktok_clon_app/shared/constants/colors.dart';
+import 'package:tiktok_clon_app/shared/constants/icons_svg.dart';
+import 'package:tiktok_clon_app/shared/widgets/video_player.dart';
 
 class PerfilPage extends StatelessWidget {
   const PerfilPage({

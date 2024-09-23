@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
-
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tiktok_clone/features/home/ui/bloc/bloc/foryou_bloc/foryou_bloc.dart';
-import 'package:tiktok_clone/features/home/ui/bloc/cubit/home_page_controller_cubit.dart';
-import 'package:tiktok_clone/shared/widgets/description_widget.dart';
 
-import 'package:tiktok_clone/shared/widgets/floating_bottom_widget.dart';
+import 'package:tiktok_clon_app/features/home/ui/bloc/bloc/foryou_bloc/foryou_bloc.dart';
+import 'package:tiktok_clon_app/features/home/ui/bloc/cubit/home_page_controller_cubit.dart';
+import 'package:tiktok_clon_app/shared/widgets/description_widget.dart';
+import 'package:tiktok_clon_app/shared/widgets/floating_bottom_widget.dart';
+import 'package:tiktok_clon_app/shared/widgets/video_player.dart';
 
-import 'package:tiktok_clone/shared/widgets/video_player_widget.dart';
 
 class ForyouPage extends StatelessWidget {
   const ForyouPage({

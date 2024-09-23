@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:tiktok_clon_app/features/home/data/datasource/datasource_ntw.dart';
+import 'package:tiktok_clon_app/features/home/data/repositories/following_repository_imp.dart';
+import 'package:tiktok_clon_app/features/home/ui/bloc/bloc/following_bloc/following_bloc_bloc.dart';
 import 'package:tiktok_clon_app/shared/constants/colors.dart';
 import 'package:tiktok_clon_app/shared/widgets/video_player.dart';
-import 'package:tiktok_clone/features/home/data/datasource/network/datasource_ntw.dart';
-import 'package:tiktok_clone/features/home/data/repositories/following_repository_imp.dart';
-import 'package:tiktok_clone/features/home/ui/bloc/bloc/following_bloc/following_bloc_bloc.dart';
 
 
 class FollowingPage extends StatefulWidget {
