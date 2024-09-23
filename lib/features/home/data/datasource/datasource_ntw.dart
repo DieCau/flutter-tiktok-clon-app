@@ -1,9 +1,10 @@
 import 'package:supabase_flutter/supabase_flutter.dart';
-import 'package:tiktok_clone/features/home/domain/models/following_model.dart';
-import 'package:tiktok_clone/features/home/domain/models/foryou_profile_model.dart';
-import 'package:tiktok_clone/features/home/domain/models/fouryou_model.dart';
-import 'package:tiktok_clone/features/home/domain/models/interaction_model.dart';
-import 'package:tiktok_clone/features/home/domain/models/my_videos_model.dart';
+import 'package:tiktok_clon_app/features/home/domain/models/following_model.dart';
+import 'package:tiktok_clon_app/features/home/domain/models/foryou_model.dart';
+import 'package:tiktok_clon_app/features/home/domain/models/foryou_profile_model.dart';
+import 'package:tiktok_clon_app/features/home/domain/models/interaction_model.dart';
+import 'package:tiktok_clon_app/features/home/domain/models/my_videos_model.dart';
+
 
 class DatasourcesNtw {
   final client = Supabase.instance.client;

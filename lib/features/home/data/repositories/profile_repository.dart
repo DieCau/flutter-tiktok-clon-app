@@ -1,8 +1,9 @@
-import 'package:tiktok_clone/features/home/data/datasource/network/datasource_ntw.dart';
-import 'package:tiktok_clone/features/home/domain/models/foryou_profile_model.dart';
-import 'package:tiktok_clone/features/home/domain/models/interaction_model.dart';
-import 'package:tiktok_clone/features/home/domain/models/my_videos_model.dart';
-import 'package:tiktok_clone/features/home/domain/repositories/profile_repository.dart';
+import 'package:tiktok_clon_app/features/home/data/datasource/datasource_ntw.dart';
+import 'package:tiktok_clon_app/features/home/domain/models/foryou_profile_model.dart';
+import 'package:tiktok_clon_app/features/home/domain/models/interaction_model.dart';
+import 'package:tiktok_clon_app/features/home/domain/models/my_videos_model.dart';
+import 'package:tiktok_clon_app/features/home/domain/repositories/profile_repository.dart';
+
 
 class ProfileRepositoryImpl extends ProfileRepository {
   final DatasourcesNtw datasourcesNtw;

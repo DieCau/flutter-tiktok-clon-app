@@ -2,9 +2,10 @@ import 'dart:async';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:tiktok_clone/features/home/domain/models/foryou_profile_model.dart';
-import 'package:tiktok_clone/features/home/domain/models/fouryou_model.dart';
-import 'package:tiktok_clone/features/home/domain/repositories/foryou_repository.dart';
+import 'package:tiktok_clon_app/features/home/domain/models/foryou_model.dart';
+import 'package:tiktok_clon_app/features/home/domain/models/foryou_profile_model.dart';
+import 'package:tiktok_clon_app/features/home/domain/repositories/foryou_repository.dart';
+
 
 part 'foryou_event.dart';
 part 'foryou_state.dart';
