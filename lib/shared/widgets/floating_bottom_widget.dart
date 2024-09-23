@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 import 'package:flutter_svg/svg.dart';
-import 'package:tiktok_clone/features/home/domain/models/fouryou_model.dart';
+import 'package:tiktok_clon_app/features/home/domain/models/foryou_model.dart';
 
-import 'package:tiktok_clone/shared/constants/colors.dart';
-import 'package:tiktok_clone/shared/constants/icons_svg.dart';
+import 'package:tiktok_clon_app/shared/constants/colors.dart';
+import 'package:tiktok_clon_app/shared/constants/icons_svg.dart';
 
 class FloatingButtonsWidget extends StatelessWidget {
   const FloatingButtonsWidget({super.key, required this.item});

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tiktok_clone/features/home/domain/models/fouryou_model.dart';
+import 'package:tiktok_clon_app/features/home/domain/models/foryou_model.dart';
 
 class DescriptionWidget extends StatelessWidget {
   const DescriptionWidget({

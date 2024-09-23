@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:tiktok_clone/shared/constants/colors.dart';
-import 'package:tiktok_clone/shared/constants/icons_svg.dart';
+import 'package:tiktok_clon_app/shared/constants/colors.dart';
+import 'package:tiktok_clon_app/shared/constants/icons_svg.dart';
 
 class NavbarWidget extends StatefulWidget implements PreferredSizeWidget {
   const NavbarWidget({super.key});
